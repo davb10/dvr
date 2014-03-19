@@ -1,0 +1,3 @@
+DvR is a webpage made under my studieng in Blekinge Thechnical Institute. I'm using my own PHP-boilerplate/framework for small websites.
+DvR is built by David Valenzuela (davb10@student.bth.se) as part of learning web programming in PHP and MySQL.
+DvR is published in januari 2014 as under homepage at http://www.student.bth.se/~davb10/dvr (swedish).

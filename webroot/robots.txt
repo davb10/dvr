@@ -1,0 +1,4 @@
+# http://robotstxt.org/
+# applays to all robots. Do not visit any site on this folder / 
+User-agent: *
+Disallow: /
