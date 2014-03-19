@@ -19,18 +19,3 @@ function get_title($title) {
   return $title . (isset($dvr['title_append']) ? $dvr['title_append'] : null);
 }
 
-
-/**------------------------------------------------------------------------------
- * generateMenu
-* ------------------------------------------------------------------------------
-* Load menu as an array and return html
-* In : $item menu list in array
-* Out: $html return menu in html
-* ------------------------------------------------------------------------------**/
-function GenerateMenu($items) {
-	$html = "<nav>\n";
-	foreach($items as $item) {
-	$html .= "<a href='{$item['url']}'>{$item['text']}</a>\n";}
-	$html .= "</nav>\n";
-	return $html;
-}

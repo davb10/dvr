@@ -17,7 +17,7 @@ CHANGELOG v.2:
 <body>
   <div id='wrapper'>
     <div id='header'><?=$header?></div>
-    <div id='navbar'><?php echo GenerateMenu($menu)?></div>
+    <div id='navbar'><?php echo $menu->GenerateMenu()?></div>
     <div id='main'><?=$main?></div>
     <div id='footer'><?=$footer?></div>
   </div>

@@ -33,10 +33,10 @@ session_start();
 /**---------------------------------------------------------------------------------
  * Settings up menu array $menu
 *----------------------------------------------------------------------------------**/
-$menu = array();
-$menu['me'] = array('text'=>'Me','url'=>'index.php');
-$menu['redovisning'] = array('text'=>'Redovisning','url'=>'redovisning.php');
-$menu['sourcecode'] = array('text'=>'Källkod','url'=>'source.php');
+$menu = new Cmenu();
+$menu ->SetMenu('me',array('text'=>'Me','url'=>'index.php'));
+$menu ->SetMenu('redovisning',array('text'=>'Redovisning','url'=>'redovisning.php'));
+$menu ->SetMenu('sourcecode',array('text'=>'Källkod','url'=>'source.php'));
 
 /**---------------------------------------------------------------------------------
  * Create variable (array) $dvr and define settings
