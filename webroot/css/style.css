@@ -2,11 +2,10 @@
 /**------------------------------------------------------------------------------
  * 	style.css
 * 	Stylesheet for template DvR_mall
-*	David Valenzuela (davb10) 2014-02-13
-*	Ver 2
-*	CHANGELOG v.2:
-*	- wrong definition of charset according to validation. now fixed.
-*	- class .sitelogo was not used now removed.
+*	David Valenzuela (davb10) 2014-03-20
+*	Ver 3
+*	CHANGELOG v.3:
+*	- Added support for the DiceGame
 * 	------------------------------------------------------------------------------**/
 
 /**------------------------------------------------------------------------------
@@ -192,3 +191,33 @@ nav a.selected {
   overflow: auto;
 }
 /*=source*/
+
+/*=dicegame -------------------------------------------------------------------------*/
+/**
+ * Style for dicegame.php
+ */
+ 
+ul.dice {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ 
+ul.dice li {
+  display: inline-block;
+  padding: 0;
+  margin: 0 4px 0 0;
+  width: 32px;
+  height: 32px;
+  background: url(../img/dice-faces.jpg) no-repeat;
+}
+ 
+ul.dice li.dice-1 { background-position: -160px 0px; }
+ul.dice li.dice-2 { background-position: -128px 0px; }
+ul.dice li.dice-3 { background-position:  -96px 0px; }
+ul.dice li.dice-4 { background-position:  -64px 0px; }
+ul.dice li.dice-5 { background-position:  -32px 0px; }
+ul.dice li.dice-6 { background-position:    0px 0px; }
+ 
+ /*=dicegame*/
+ 
