@@ -35,6 +35,7 @@ session_start();
 *----------------------------------------------------------------------------------**/
 $menu = new Cmenu();
 $menu ->SetMenu('me',array('text'=>'Me','url'=>'index.php'));
+$menu ->SetMenu('dicegame',array('text'=>'Tärningsspel','url'=>'dicegame.php'));
 $menu ->SetMenu('redovisning',array('text'=>'Redovisning','url'=>'redovisning.php'));
 $menu ->SetMenu('sourcecode',array('text'=>'Källkod','url'=>'source.php'));
 
