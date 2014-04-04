@@ -27,6 +27,7 @@ $dvr['main'] = <<<EOD
 <p>MySqlClu som är en textbaserad klient har jag nu lärt mig att använda. Tidigare tyckte jag att den var bara jobbigt och använde den inte alls. Men ny tycker jag att den är helt OK om man behöver använda sig av endast SQL-frågor.</p>
 
 <p>Min stora favorit blev dock MySQL Workbench som känns mycket mer komplett med utveckling av ER-diagram och att man kan ha större kontroll av sina servrar och databas kopplingar.</p>
+<p>Kunde koppla upp mig till BTH:s MySQL med MySQL Workbench utan problem. och allt fungerade som det skulle.</p>
 
 <h3>Övningen</h3>
 <p>Övningen kändes lagom svårt och var jätte roligt att göra. Den gav en mycket bra överblick över vad man kan göra med SQL. Sparade alla mina SQL-frågor för framtida användning.
