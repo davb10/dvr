@@ -18,6 +18,34 @@ $dvr['title'] = "Redovisning OOPHP";
  
 $dvr['main'] = <<<EOD
 <h1>Redovisning per kursmoment</h1>
+<h2>Kmom03 – SQL och datbasen MySQL</h2>
+<p>Är bekant med SQL språket (Structured Query Language) från mina tidigare databas studier. Då tyckte jag att ämnet var ointressant för mig, tills jag började arbeta för en utvecklingsföretag som utvecklade en journalsystem för privat vården. Databasen som användes var Microsft SQL 2000 med T-SQL språket (Transact-SQL) som är en vidareutveckling av SQL språket gjord av Microsoft och Sybase.</p>
+
+<h3>MySQL</h3>
+<p>Arbeta med MySql kändes rätt enkelt tack vare mina tidigare SQL studier och att jag har använd MySQL tidigare tillsammans med CMS programmet Drupal. Med Drupal arbetade jag inte med utveckling dock endast med klienten phpMyAdmin pga att nästan alla webb-hotell stödjer den.</p> 
+
+<p>MySqlClu som är en textbaserad klient har jag nu lärt mig att använda. Tidigare tyckte jag att den var bara jobbigt och använde den inte alls. Men ny tycker jag att den är helt OK om man behöver använda sig av endast SQL-frågor.</p>
+
+<p>Min stora favorit blev dock MySQL Workbench som känns mycket mer komplett med utveckling av ER-diagram och att man kan ha större kontroll av sina servrar och databas kopplingar.</p>
+
+<h3>Övningen</h3>
+<p>Övningen kändes lagom svårt och var jätte roligt att göra. Den gav en mycket bra överblick över vad man kan göra med SQL. Sparade alla mina SQL-frågor för framtida användning.
+Svårast var dock delen med INNER JOIN och OUTER JOIN som jag har alltid haft lite problem att förstå i sin helhet dock med lite mer övningar känner jag mig mycket mer förbered.
+Som man brukar säga övning ger färdighet.</p>
+
+<h3>Kommentarer</h3>
+<p>Då jag tidigare hade mycket svårt att förstå Inner Join och Outer Join arbetade jag med utveckling av enkla databaser i Microsoft Access som använde sig av ER-diagram som senare gav T-SQL kod som jag senare kunde använda i stora Microsoft SQL. Såg att denna verktyg finns även i MySQL och lekte lite med den också.
+Allmänt var övningen mycket roligt.</p>
+    		<p>
+
+		/David <a href="mailto:davb10@student.bth.se">Skicka e-post till mig</a>
+
+		
+
+		</p>
+		
+		<p>-----------------------------</p>
+    
 <h2>Kmom02 - Objektorienterad programmering</h2>
 <h3>Utvecklingsmiljö</h3>
 		<ul>
